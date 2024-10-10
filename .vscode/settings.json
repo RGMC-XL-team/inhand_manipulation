@@ -1,0 +1,93 @@
+{
+    "[jsonc]": {
+        "editor.codeActionsOnSave": {
+            "source.sort.json": "explicit"
+        },
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "[xml]": {
+        "editor.formatOnSave": true
+    },
+    "[yaml]": {
+        "editor.formatOnSave": true
+    },
+    "cSpell.words": [
+        "APRILTAG",
+        "arctan",
+        "Avel",
+        "devel",
+        "disp",
+        "Dquat",
+        "edgecolor",
+        "ftol",
+        "hstack",
+        "ICRA",
+        "IKSQP",
+        "jaco",
+        "Jacobians",
+        "keepdims",
+        "leaphand",
+        "linalg",
+        "linewidth",
+        "logerr",
+        "logwarn",
+        "maxiter",
+        "mingrui",
+        "mjcf",
+        "mjpython",
+        "mujoco",
+        "ndarray",
+        "omegaconf",
+        "pinv",
+        "qpos",
+        "randn",
+        "RGMC",
+        "rigidtransform",
+        "roslaunch",
+        "rospack",
+        "rospkg",
+        "rospy",
+        "rotvec",
+        "rutil",
+        "SLSQP",
+        "timestep",
+        "traj",
+        "ucalc",
+        "urdf",
+        "worldbody",
+        "WXYZ",
+        "xaxis",
+        "xlabel",
+        "xlim",
+        "xpos",
+        "xquat",
+        "XYZW",
+        "yaxis",
+        "ylabel",
+        "ylim",
+        "zlim"
+    ],
+    "mypy-type-checker.args": [
+        "--ignore-missing-imports"
+    ],
+    "python.analysis.extraPaths": [
+        "./leap_hardware/src",
+        "./leap_utils/src",
+        "./leap_task_B/src",
+        "./leap_model_based/src"
+    ],
+    "redhat.telemetry.enabled": false,
+    "xml.format.maxLineWidth": 100,
+    "python.autoComplete.extraPaths": [
+        "/home/mingrui/Mingrui/research/project_RGMC_24/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
