@@ -4,7 +4,7 @@
 
 ### Simulation
 
-Install ROS Melodic.
+Install ROS Noetic.
 
 In Python==3.8.10 env:
 
@@ -32,7 +32,7 @@ catkin_make
 Run the mujoco simulation only (no motion):
 
 ```bash
-# in conda env
+# in python env
 cd leap_task_A/scripts
 source ../../../../devel/setup.bash
 python leaphand_mujoco.py
@@ -41,7 +41,7 @@ python leaphand_mujoco.py
 Run the in-hand object moving:
 
 ```bash
-# in conda env
+# in python env
 cd leap_task_A/scripts
 source ../../../../devel/setup.bash
 python leaphand_control.py
